@@ -9,7 +9,7 @@ const app = express();
 
 // CORS
 app.use(cors({
-    origin: 'https://bungalovbooking.onrender.com' // Sadece belirli bir domainden gelen isteklere izin verir
+    origin: 'https://bungalovbooking-faxg.onrender.com' // Sadece belirli bir domainden gelen isteklere izin verir
 }));
 
 // Routers
